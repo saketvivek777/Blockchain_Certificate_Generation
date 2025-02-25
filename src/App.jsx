@@ -19,8 +19,8 @@ function App() {
 
   return (
     <Router>
-       
-        <div className="w-full h-screen bg-white-100 flex items-center justify-center">
+        
+
           <Routes>
             <Route
               path="/"
@@ -45,7 +45,7 @@ function App() {
 
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
-        </div>
+       
     </Router>
   );
 }

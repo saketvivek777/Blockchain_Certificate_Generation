@@ -211,7 +211,7 @@ const Auth1Page = ({ username, onLogout }) => {
           {/* Signature Upload Section */}
           <div className="mb-6">
             <label className="block text-lg font-semibold mb-2">
-              Upload Signature (JPG only):
+              Upload Signature:
             </label>
             <input
               type="file"
