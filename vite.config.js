@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Blockchain_Based_Certification_React_app/",
+  base: "/Blockchain_Certificate_Generation/",
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
